@@ -38,6 +38,10 @@
   align-items: center;
 }
 
+.promo-wrapper {
+  display: flex;
+}
+
 .container {
   max-width: 1170px;
   width: 100%;
