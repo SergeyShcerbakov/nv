@@ -42,6 +42,10 @@
   display: flex;
 }
 
+.promo-left {
+  width: 840px;
+}
+
 .container {
   max-width: 1170px;
   width: 100%;
