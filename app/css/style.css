@@ -1,5 +1,7 @@
 .header {
   padding-top: 32px;
+  position: absolute;
+  width: 100%;
 }
 
 .menu__list {
