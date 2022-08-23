@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const fileinclude = require('gulp-file-include');
 const sass = require('gulp-sass')(require('sass'));
 const cssnano = require("gulp-cssnano");
-const imagemin = require("gulp-imagemin");
+const imagemin  = require('gulp-imagemin');
 const { series } = require("gulp");
 
 function defaultTask(cb) {
@@ -47,25 +47,17 @@ function imgmin() {
             ])
         )
         .pipe(gulp.dest("dest/images"));
-};
-
-function fontstodest() {
-    return gulp
-        .src('app/fonts/*.*')
-        .pipe(gulp.dest('dest/fonts/'));
-};
+}
 
 exports.default = defaultTask; // gulp
 exports.html = htmlInckude;
 exports.scss = buildStyles;
 exports.css = cssNanotodest;
 exports.img = imgmin;
-exports.font = fontstodest;
 
 exports.dev = series (
     htmlInckude,
     buildStyles,
     cssNanotodest,
-    fontstodest,
     imgmin
 );
