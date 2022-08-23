@@ -1,6 +1,25 @@
-<<<<<<< HEAD
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat-Regular.woff");
+}
+.btn {
+  width: 223px;
+  height: 56px;
+  padding: 16px 32px;
+}
+
+.promo-btn {
+  background: #385975;
+  box-shadow: 0px 10px 20px rgba(56, 89, 117, 0.5);
+  border-radius: 30px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 220px;
+}
+
 .header {
-  padding-top: 32px;
+  padding-top: 50px;
   position: absolute;
   width: 100%;
 }
@@ -25,12 +44,13 @@
   position: absolute;
   top: 0;
   margin-top: 32px;
-  right: 22px;
+  right: 0;
   width: 294px;
   height: 55px;
   background: rgba(255, 255, 255, 0.35);
   box-shadow: 0px 10px 20px rgba(56, 89, 117, 0.5);
   border-radius: 30px 0px 0px 30px;
+  z-index: 1;
 }
 
 .header__list {
@@ -39,15 +59,72 @@
   margin-left: 40px;
   gap: 53px;
   align-items: center;
+  padding: 18px 0;
+}
+
+.promo {
+  background: linear-gradient(180deg, rgba(56, 89, 117, 0.25) 880px, #ffffff 200px);
+}
+
+.promo-wrapper {
+  display: flex;
+}
+
+.promo-left {
+  height: 1000px;
+  padding-top: 340px;
+}
+
+.promo-title {
+  font-family: "Montserrat-Regular";
+  font-size: 60px;
+  margin-bottom: 50px;
+  color: #385975;
+  padding-left: 220px;
+}
+
+.promo-desc {
+  font-family: "Montserrat-Regular";
+  color: #385975;
+  margin-bottom: 25px;
+  width: 295px;
+  padding-left: 220px;
+}
+
+.promo-text {
+  font-family: "Montserrat-Regular";
+  margin-bottom: 35px;
+  color: #385975;
+  width: 295px;
+  padding-left: 220px;
+}
+
+.promo-slogan {
+  margin-top: 295px;
+  margin-left: 120px;
+  font-size: 16px;
+  color: rgba(56, 89, 117, 0.5);
+}
+
+.promo-photo-main {
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  margin-left: 50%;
+  transform: translateX(-35%);
+}
+
+.promo-right {
+  position: absolute;
+  right: 0;
+}
+
+* {
+  margin: 0;
 }
 
 .container {
   max-width: 1170px;
   width: 100%;
-  margin: 0 auto;
   padding: 0 15px;
-=======
-h1 {
-  color: yellow;
->>>>>>> main
 }

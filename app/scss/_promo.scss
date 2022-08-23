@@ -1,0 +1,56 @@
+.promo {
+  background: linear-gradient(180deg,rgba(56, 89, 117, 0.25) 880px,#ffffff 200px);
+}
+
+.promo-wrapper {
+  display: flex;
+}
+
+.promo-left {
+  height: 1000px;
+  padding-top: 340px;
+}
+
+.promo-title {
+  font-family: 'Montserrat-Regular';
+  font-size: 60px;
+  margin-bottom: 50px;
+  color: #385975;
+  padding-left: 220px;
+}
+
+.promo-desc {
+  font-family: 'Montserrat-Regular';
+  color: #385975;
+  margin-bottom: 25px;
+  width: 295px;
+  padding-left: 220px;
+}
+
+.promo-text {
+  font-family: 'Montserrat-Regular';
+  margin-bottom: 35px;
+  color: #385975;
+  width: 295px;
+  padding-left: 220px;
+}
+
+.promo-slogan {
+  margin-top: 295px;
+  margin-left: 120px;
+  font-size: 16px;
+  color: rgba(56, 89, 117, 0.5);
+}
+
+.promo-photo-main {
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  margin-left: 50%;
+  transform: translateX(-35%);
+}
+
+.promo-right {
+  position: absolute;
+  right: 0;
+}

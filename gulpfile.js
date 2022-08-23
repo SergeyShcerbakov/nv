@@ -2,6 +2,7 @@ const gulp = require('gulp');
 const fileinclude = require('gulp-file-include');
 const sass = require('gulp-sass')(require('sass'));
 const cssnano = require("gulp-cssnano");
+const imagemin  = require('gulp-imagemin');
 const { series } = require("gulp");
 
 function defaultTask(cb) {
