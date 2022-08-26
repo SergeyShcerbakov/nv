@@ -2,6 +2,10 @@
   font-family: "Montserrat-Regular";
   src: url("../fonts/Montserrat-Regular.woff");
 }
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat-Bold.woff");
+}
 .btn {
   width: 223px;
   height: 56px;
@@ -16,6 +20,15 @@
   text-decoration: none;
   text-transform: uppercase;
   margin-left: 220px;
+}
+
+.btn--white {
+  color: #385975;
+  font-family: "Montserrat-Bold";
+  text-decoration: none;
+  background: #ffffff;
+  text-transform: uppercase;
+  border-radius: 30px;
 }
 
 .header {
@@ -203,6 +216,35 @@
   color: #1B1B1F;
   font-size: 16px;
   font-family: "Montserrat-Regular";
+}
+
+.keyboard-wrapper {
+  display: flex;
+}
+
+.keyboard-content {
+  background: #385975;
+  text-align: right;
+  padding: 48px 120px 48px 80px;
+  max-width: 400px;
+}
+
+.keyboard-desc {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Montserrat-Bold";
+  margin-bottom: 35px;
+}
+
+.keyboard-etc-img {
+  margin-bottom: 50px;
+}
+
+.keyboard-text {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Montserrat-Regular";
+  margin-bottom: 100px;
 }
 
 * {
