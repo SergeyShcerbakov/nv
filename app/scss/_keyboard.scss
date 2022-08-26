@@ -1,0 +1,28 @@
+.keyboard-wrapper {
+  display: flex;
+}
+
+.keyboard-content {
+  background: #385975;
+  text-align: right;
+  padding: 48px 120px 48px 80px;
+  max-width: 400px;
+}
+
+.keyboard-desc {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Montserrat-Bold';
+  margin-bottom: 35px;
+}
+
+.keyboard-etc-img {
+  margin-bottom:50px;
+}
+
+.keyboard-text {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Montserrat-Regular';
+  margin-bottom: 100px;
+}
