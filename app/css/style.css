@@ -64,6 +64,7 @@
 
 .promo {
   background: linear-gradient(180deg, rgba(56, 89, 117, 0.25) 880px, #ffffff 200px);
+  padding-bottom: 110px;
 }
 
 .promo-wrapper {
@@ -71,7 +72,6 @@
 }
 
 .promo-left {
-  height: 1000px;
   padding-top: 340px;
 }
 
@@ -117,6 +117,92 @@
 .promo-right {
   position: absolute;
   right: 0;
+}
+
+.expertise {
+  padding: 30px 0 75px;
+}
+
+.expertise-wrapper {
+  display: flex;
+}
+
+.expertise-title {
+  color: #385975;
+  text-transform: uppercase;
+  font-family: "Montserrat-Regular";
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  margin-bottom: 72px;
+  margin-left: 120px;
+}
+
+.expertise__left-block {
+  margin-left: 225px;
+  margin-right: 140px;
+}
+
+.expertise__content {
+  margin-bottom: 82px;
+  max-width: 480px;
+}
+.expertise__content:before {
+  content: url("../images/expertise-icon.svg");
+  width: 33px;
+  height: 33px;
+  margin-left: -100px;
+  position: absolute;
+  margin-top: -1%;
+}
+
+.expertise__caption {
+  color: #385975;
+  font-size: 16px;
+  font-family: "Montserrat-Regular";
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.expertise__desc {
+  color: #1B1B1F;
+  font-size: 16px;
+  font-family: "Montserrat-Regular";
+  margin-bottom: 25px;
+}
+
+.expertise-price-wrapper {
+  display: flex;
+}
+
+.expertise__price {
+  margin-right: 55px;
+}
+
+.expertise__price-text {
+  color: #1B1B1F;
+  font-size: 16px;
+  font-family: "Montserrat-Regular";
+  margin-bottom: 10px;
+}
+
+.expertise__price-time {
+  color: #1B1B1F;
+  font-size: 16px;
+  font-family: "Montserrat-Regular";
+}
+
+.expertise__sum-usd {
+  color: #1B1B1F;
+  font-size: 16px;
+  font-family: "Montserrat-Regular";
+  margin-bottom: 10px;
+}
+
+.expertise__sum-day {
+  color: #1B1B1F;
+  font-size: 16px;
+  font-family: "Montserrat-Regular";
 }
 
 * {
