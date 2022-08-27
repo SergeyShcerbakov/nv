@@ -4,9 +4,53 @@
 }
 
 .work-title {
-
+  font-size: 16px;
+  font-family: 'Montserrat-Regular';
+  text-transform: uppercase;
+  margin-bottom: 72px;
+  color: #385975;
 }
 
 .work-wrapper {
   display: flex;
+}
+
+//.work__left-img {
+//  margin-right: 110px;
+//}
+
+.work__fest-img {
+  border-radius: 30px;
+  margin-bottom: 90px;
+}
+.work__right-wrapper {
+  margin-left:110px;
+}
+.work__right-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: 'Montserrat-Regular';
+  letter-spacing: 0.1em;
+  margin-bottom: 40px;
+  color: #385975;
+}
+
+.work__subtitle {
+  font-size: 16px;
+  color: #1B1B1F;
+  font-family: 'Montserrat-Bold';
+  margin-bottom: 20px;
+}
+
+.work__desc {
+  color: #1B1B1F;
+  font-family: 'Montserrat-Regular';
+  margin-bottom: 40px;
+}
+
+.work__text {
+  font-size: 16px;
+  color: #1B1B1F;
+  font-family: 'Montserrat-Bold';
+  margin-bottom: 235px;
 }
